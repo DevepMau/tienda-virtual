@@ -10,7 +10,6 @@ export default function Header() {
   const quantity = cart.reduce((acc, curr) => {
     return acc + curr.cantidad;
   }, 0);
-  console.log(cart);
 
   return (
     <header className='header'>
